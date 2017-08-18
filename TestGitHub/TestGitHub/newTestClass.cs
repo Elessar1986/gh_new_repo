@@ -11,6 +11,7 @@ namespace TestGitHub
     public class newTestClass : INotifyPropertyChanged
     {
         public string UserName { get; set; }
+        public int Age { get; set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
